@@ -1,0 +1,546 @@
+INFO  03:44:39 Application started. Press Ctrl+C to shut down.
+INFO  03:44:39 Application started. Press Ctrl+C to shut down.
+INFO  03:44:39 Hosting environment: Development
+INFO  03:44:39 Hosting environment: Development
+INFO  03:44:39 Content root path: C:\Users\Anuj-PC\Downloads\MFPE\MFPE\Transction Api\Transactions Microservice
+INFO  03:44:39 Content root path: C:\Users\Anuj-PC\Downloads\MFPE\MFPE\Transction Api\Transactions Microservice
+INFO  03:45:22 GetTransactions Api called
+INFO  03:45:22 Valid Customer Id
+INFO  03:46:23 getAccount Api called
+ERROR 03:46:27 Exception occured while getting Account details for account id: 1
+ERROR 03:46:28 One or more errors occurred. (No connection could be made because the target machine actively refused it.): In Trasaction Controller
+INFO  03:51:59 Application started. Press Ctrl+C to shut down.
+INFO  03:51:59 Application started. Press Ctrl+C to shut down.
+INFO  03:51:59 Hosting environment: Development
+INFO  03:51:59 Hosting environment: Development
+INFO  03:51:59 Content root path: C:\Users\Anuj-PC\Downloads\MFPE\MFPE\Transction Api\Transactions Microservice
+INFO  03:51:59 Content root path: C:\Users\Anuj-PC\Downloads\MFPE\MFPE\Transction Api\Transactions Microservice
+INFO  03:52:14 GetTransactions Api called
+INFO  03:52:14 Valid Customer Id
+ERROR 03:52:14 No Record Found for this123
+INFO  09:26:39 Application started. Press Ctrl+C to shut down.
+INFO  09:26:39 Application started. Press Ctrl+C to shut down.
+INFO  09:26:39 Hosting environment: Development
+INFO  09:26:39 Hosting environment: Development
+INFO  09:26:39 Content root path: D:\CognizantLearn\AsFTE\MFPE\Updated\Transactions Microservice
+INFO  09:26:39 Content root path: D:\CognizantLearn\AsFTE\MFPE\Updated\Transactions Microservice
+INFO  09:28:36 Transaction history returned for Customer Id: 1
+ERROR 09:30:20 No Record Found for this Customer Id: 3
+ERROR 09:30:20 An unhandled exception has occurred while executing the request.
+System.ArgumentException: No Record Found for this Customer Id: 3
+   at Transactions_Microservice.Controllers.TransactionController.getTransactions(Int32 CustomerId) in D:\CognizantLearn\AsFTE\MFPE\Updated\Transactions Microservice\Controllers\TransactionController.cs:line 56
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 09:30:20 An unhandled exception has occurred while executing the request.
+System.ArgumentException: No Record Found for this Customer Id: 3
+   at Transactions_Microservice.Controllers.TransactionController.getTransactions(Int32 CustomerId) in D:\CognizantLearn\AsFTE\MFPE\Updated\Transactions Microservice\Controllers\TransactionController.cs:line 56
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  09:30:48 getAccount Api called
+ERROR 09:30:50 Exception occured while getting Account details for account id: 3
+ERROR 09:30:50 One or more errors occurred. (No connection could be made because the target machine actively refused it.): In Trasaction Controller
+ERROR 09:30:50 An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it.)
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   --- End of inner exception stack trace ---
+   at Transactions_Microservice.Controllers.TransactionController.deposit(Object model) in D:\CognizantLearn\AsFTE\MFPE\Updated\Transactions Microservice\Controllers\TransactionController.cs:line 96
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 09:30:50 An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it.)
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   --- End of inner exception stack trace ---
+   at Transactions_Microservice.Controllers.TransactionController.deposit(Object model) in D:\CognizantLearn\AsFTE\MFPE\Updated\Transactions Microservice\Controllers\TransactionController.cs:line 96
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  09:53:40 Application started. Press Ctrl+C to shut down.
+INFO  09:53:40 Application started. Press Ctrl+C to shut down.
+INFO  09:53:40 Hosting environment: Development
+INFO  09:53:40 Hosting environment: Development
+INFO  09:53:40 Content root path: E:\CTS\MFPE\Shayad Final\Updated\Transactions Microservice
+INFO  09:53:40 Content root path: E:\CTS\MFPE\Shayad Final\Updated\Transactions Microservice
+INFO  09:56:09 getAccount Api called
+INFO  09:56:09 deposit Api called
+INFO  09:56:09 Deposit done for Account Id: 5
+INFO  09:56:42 getAccount Api called
+INFO  09:56:42 deposit Api called
+INFO  09:56:42 Deposit done for Account Id: 5
+INFO  09:58:22 Transaction history returned for Customer Id: 3
+INFO  09:59:36 Transfer done from Account Id: 5to Account Id6
+INFO  10:01:12 withdraw Api called
+INFO  10:01:12 Withdraw done for Account Id: 5
+INFO  10:02:16 Transaction history returned for Customer Id: 3
+INFO  05:37:37 Now listening on: https://localhost:5004
+INFO  05:37:37 Now listening on: https://localhost:5004
+INFO  05:37:37 Now listening on: http://localhost:5005
+INFO  05:37:37 Now listening on: http://localhost:5005
+INFO  05:37:37 Application started. Press Ctrl+C to shut down.
+INFO  05:37:37 Application started. Press Ctrl+C to shut down.
+INFO  05:37:37 Hosting environment: Development
+INFO  05:37:37 Hosting environment: Development
+INFO  05:37:37 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  05:37:37 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  05:48:22 Application is shutting down...
+INFO  05:48:22 Application is shutting down...
+INFO  05:48:34 Now listening on: https://localhost:5004
+INFO  05:48:34 Now listening on: https://localhost:5004
+INFO  05:48:34 Now listening on: http://localhost:5005
+INFO  05:48:34 Now listening on: http://localhost:5005
+INFO  05:48:34 Application started. Press Ctrl+C to shut down.
+INFO  05:48:34 Application started. Press Ctrl+C to shut down.
+INFO  05:48:34 Hosting environment: Development
+INFO  05:48:34 Hosting environment: Development
+INFO  05:48:34 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  05:48:34 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  05:57:14 getAccount Api called
+INFO  05:57:14 deposit Api called
+INFO  05:57:15 Deposit done for Account Id: 5
+INFO  05:58:24 withdraw Api called
+INFO  05:58:24 Withdraw done for Account Id: 5
+INFO  06:00:51 Transfer done from Account Id: 5to Account Id6
+INFO  09:03:07 Now listening on: https://localhost:5004
+INFO  09:03:07 Now listening on: https://localhost:5004
+INFO  09:03:07 Now listening on: http://localhost:5005
+INFO  09:03:07 Now listening on: http://localhost:5005
+INFO  09:03:07 Application started. Press Ctrl+C to shut down.
+INFO  09:03:07 Application started. Press Ctrl+C to shut down.
+INFO  09:03:07 Hosting environment: Development
+INFO  09:03:07 Hosting environment: Development
+INFO  09:03:07 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  09:03:07 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  08:07:40 Now listening on: https://localhost:5004
+INFO  08:07:40 Now listening on: https://localhost:5004
+INFO  08:07:40 Now listening on: http://localhost:5005
+INFO  08:07:40 Now listening on: http://localhost:5005
+INFO  08:07:40 Application started. Press Ctrl+C to shut down.
+INFO  08:07:40 Application started. Press Ctrl+C to shut down.
+INFO  08:07:40 Hosting environment: Development
+INFO  08:07:40 Hosting environment: Development
+INFO  08:07:40 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  08:07:40 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  08:10:38 Transaction history returned for Customer Id: 1
+INFO  10:15:29 Now listening on: https://localhost:5004
+INFO  10:15:29 Now listening on: https://localhost:5004
+INFO  10:15:29 Now listening on: http://localhost:5005
+INFO  10:15:29 Now listening on: http://localhost:5005
+INFO  10:15:29 Application started. Press Ctrl+C to shut down.
+INFO  10:15:29 Application started. Press Ctrl+C to shut down.
+INFO  10:15:29 Hosting environment: Development
+INFO  10:15:29 Hosting environment: Development
+INFO  10:15:29 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  10:15:29 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  10:26:58 Application is shutting down...
+INFO  10:26:58 Application is shutting down...
+INFO  10:27:27 Now listening on: https://localhost:5004
+INFO  10:27:27 Now listening on: https://localhost:5004
+INFO  10:27:27 Now listening on: http://localhost:5005
+INFO  10:27:27 Now listening on: http://localhost:5005
+INFO  10:27:27 Application started. Press Ctrl+C to shut down.
+INFO  10:27:27 Application started. Press Ctrl+C to shut down.
+INFO  10:27:27 Hosting environment: Development
+INFO  10:27:27 Hosting environment: Development
+INFO  10:27:27 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  10:27:27 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  10:39:25 Application is shutting down...
+INFO  10:39:25 Application is shutting down...
+INFO  10:39:43 Now listening on: https://localhost:5004
+INFO  10:39:43 Now listening on: https://localhost:5004
+INFO  10:39:43 Now listening on: http://localhost:5005
+INFO  10:39:43 Now listening on: http://localhost:5005
+INFO  10:39:43 Application started. Press Ctrl+C to shut down.
+INFO  10:39:43 Application started. Press Ctrl+C to shut down.
+INFO  10:39:43 Hosting environment: Development
+INFO  10:39:43 Hosting environment: Development
+INFO  10:39:43 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  10:39:43 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  11:07:38 Transaction history returned for Customer Id: 1
+INFO  11:38:12 Transaction history returned for Customer Id: 1
+INFO  11:43:01 Transaction history returned for Customer Id: 1
+INFO  11:46:11 Transaction history returned for Customer Id: 1
+INFO  11:49:01 Application is shutting down...
+INFO  11:49:01 Application is shutting down...
+INFO  11:49:22 Now listening on: https://localhost:5004
+INFO  11:49:22 Now listening on: https://localhost:5004
+INFO  11:49:22 Now listening on: http://localhost:5005
+INFO  11:49:22 Now listening on: http://localhost:5005
+INFO  11:49:22 Application started. Press Ctrl+C to shut down.
+INFO  11:49:22 Application started. Press Ctrl+C to shut down.
+INFO  11:49:22 Hosting environment: Development
+INFO  11:49:22 Hosting environment: Development
+INFO  11:49:22 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  11:49:22 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  11:50:03 Transaction history returned for Customer Id: 1
+INFO  11:50:15 Transaction history returned for Customer Id: 1
+INFO  11:50:51 Transaction history returned for Customer Id: 1
+INFO  11:51:20 Transaction history returned for Customer Id: 1
+INFO  11:53:17 Transaction history returned for Customer Id: 1
+INFO  11:54:12 Transaction history returned for Customer Id: 1
+INFO  11:54:58 Transaction history returned for Customer Id: 1
+INFO  11:55:41 Transaction history returned for Customer Id: 1
+INFO  02:19:28 Application is shutting down...
+INFO  02:19:28 Application is shutting down...
+INFO  02:19:49 Now listening on: https://localhost:5004
+INFO  02:19:49 Now listening on: https://localhost:5004
+INFO  02:19:49 Now listening on: http://localhost:5005
+INFO  02:19:49 Now listening on: http://localhost:5005
+INFO  02:19:49 Application started. Press Ctrl+C to shut down.
+INFO  02:19:49 Application started. Press Ctrl+C to shut down.
+INFO  02:19:49 Hosting environment: Development
+INFO  02:19:49 Hosting environment: Development
+INFO  02:19:49 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  02:19:49 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  02:23:08 getAccount Api called
+INFO  02:23:08 deposit Api called
+INFO  02:23:09 Deposit done for Account Id: 1
+INFO  02:27:31 withdraw Api called
+INFO  02:27:31 Withdraw done for Account Id: 1
+INFO  02:43:54 getAccount Api called
+INFO  02:43:54 deposit Api called
+INFO  02:43:54 Deposit done for Account Id: 1
+INFO  02:51:33 withdraw Api called
+INFO  02:51:33 Withdraw done for Account Id: 1
+INFO  02:53:29 getAccount Api called
+INFO  02:53:29 deposit Api called
+INFO  02:53:30 Deposit done for Account Id: 1
+INFO  02:53:45 withdraw Api called
+INFO  02:53:45 Withdraw done for Account Id: 1
+INFO  03:05:00 getAccount Api called
+INFO  03:05:00 deposit Api called
+INFO  03:05:00 Deposit done for Account Id: 1
+INFO  03:05:15 Transfer done from Account Id: 1to Account Id2
+INFO  03:16:42 Transfer done from Account Id: 2to Account Id1
+INFO  09:45:10 Now listening on: https://localhost:5004
+INFO  09:45:10 Now listening on: https://localhost:5004
+INFO  09:45:10 Now listening on: http://localhost:5005
+INFO  09:45:10 Now listening on: http://localhost:5005
+INFO  09:45:10 Application started. Press Ctrl+C to shut down.
+INFO  09:45:10 Application started. Press Ctrl+C to shut down.
+INFO  09:45:10 Hosting environment: Development
+INFO  09:45:10 Hosting environment: Development
+INFO  09:45:10 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  09:45:10 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  11:35:58 Now listening on: https://localhost:5004
+INFO  11:35:58 Now listening on: https://localhost:5004
+INFO  11:35:58 Now listening on: http://localhost:5005
+INFO  11:35:58 Now listening on: http://localhost:5005
+INFO  11:35:58 Application started. Press Ctrl+C to shut down.
+INFO  11:35:58 Application started. Press Ctrl+C to shut down.
+INFO  11:35:58 Hosting environment: Development
+INFO  11:35:58 Hosting environment: Development
+INFO  11:35:58 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  11:35:58 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  01:09:09 getAccount Api called
+INFO  01:09:09 deposit Api called
+INFO  01:09:10 Deposit done for Account Id: 1
+INFO  01:09:38 getAccount Api called
+INFO  01:09:38 deposit Api called
+INFO  01:09:38 Deposit done for Account Id: 1
+INFO  02:02:42 getAccount Api called
+INFO  02:02:42 deposit Api called
+INFO  02:02:42 Deposit done for Account Id: 2
+INFO  02:05:04 getAccount Api called
+INFO  02:05:04 deposit Api called
+INFO  02:05:04 Deposit done for Account Id: 2
+INFO  02:21:28 getAccount Api called
+INFO  02:21:28 deposit Api called
+INFO  02:21:28 Deposit done for Account Id: 2
+INFO  02:23:25 getAccount Api called
+INFO  02:23:25 deposit Api called
+INFO  02:23:25 Deposit done for Account Id: 1
+INFO  02:23:53 getAccount Api called
+INFO  02:23:53 deposit Api called
+INFO  02:23:53 Deposit done for Account Id: 2
+INFO  02:24:15 getAccount Api called
+INFO  02:24:15 deposit Api called
+INFO  02:24:15 Deposit done for Account Id: 1
+INFO  02:24:39 getAccount Api called
+INFO  02:24:39 deposit Api called
+INFO  02:24:39 Deposit done for Account Id: 1
+INFO  02:25:01 getAccount Api called
+INFO  02:25:01 deposit Api called
+INFO  02:25:01 Deposit done for Account Id: 1
+INFO  02:25:23 getAccount Api called
+INFO  02:25:23 deposit Api called
+INFO  02:25:23 Deposit done for Account Id: 1
+INFO  02:25:51 getAccount Api called
+INFO  02:25:51 deposit Api called
+INFO  02:25:51 Deposit done for Account Id: 1
+INFO  02:26:11 getAccount Api called
+INFO  02:26:11 deposit Api called
+INFO  02:26:11 Deposit done for Account Id: 1
+INFO  02:26:59 getAccount Api called
+INFO  02:26:59 deposit Api called
+INFO  02:26:59 Deposit done for Account Id: 2
+INFO  02:27:55 getAccount Api called
+INFO  02:27:55 deposit Api called
+INFO  02:27:55 Deposit done for Account Id: 1
+ERROR 05:41:13 An unhandled exception has occurred while executing the request.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at Newtonsoft.Json.Linq.JToken.op_Explicit(JToken value)
+   at CallSite.Target(Closure , CallSite , Type , Object )
+   at Transactions_Microservice.Controllers.TransactionController.deposit(Object model) in C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice\Controllers\TransactionController.cs:line 74
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 05:41:13 An unhandled exception has occurred while executing the request.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at Newtonsoft.Json.Linq.JToken.op_Explicit(JToken value)
+   at CallSite.Target(Closure , CallSite , Type , Object )
+   at Transactions_Microservice.Controllers.TransactionController.deposit(Object model) in C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice\Controllers\TransactionController.cs:line 74
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  05:41:25 getAccount Api called
+INFO  05:41:26 deposit Api called
+INFO  05:41:26 Deposit done for Account Id: 1
+INFO  05:42:08 withdraw Api called
+INFO  05:42:08 Withdraw done for Account Id: 1
+INFO  05:43:12 getAccount Api called
+INFO  05:43:12 deposit Api called
+INFO  05:43:13 Deposit done for Account Id: 1
+INFO  05:43:26 withdraw Api called
+INFO  05:43:26 Withdraw done for Account Id: 1
+INFO  05:44:02 Transfer done from Account Id: 1to Account Id2
+INFO  05:46:35 Transaction history returned for Customer Id: 1
+INFO  06:34:35 getAccount Api called
+INFO  06:34:35 deposit Api called
+INFO  06:34:35 Deposit done for Account Id: 1
+INFO  06:43:11 getAccount Api called
+INFO  06:43:11 deposit Api called
+INFO  06:43:11 Deposit done for Account Id: 1
+INFO  06:57:09 getAccount Api called
+INFO  06:57:09 deposit Api called
+INFO  06:57:09 Deposit done for Account Id: 1
+INFO  08:06:55 Now listening on: https://localhost:5004
+INFO  08:06:55 Now listening on: https://localhost:5004
+INFO  08:06:55 Now listening on: http://localhost:5005
+INFO  08:06:55 Now listening on: http://localhost:5005
+INFO  08:06:55 Application started. Press Ctrl+C to shut down.
+INFO  08:06:55 Application started. Press Ctrl+C to shut down.
+INFO  08:06:55 Hosting environment: Development
+INFO  08:06:55 Hosting environment: Development
+INFO  08:06:55 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  08:06:55 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  01:20:05 getAccount Api called
+INFO  01:20:05 deposit Api called
+INFO  01:20:06 Deposit done for Account Id: 1
+INFO  01:59:25 Transfer done from Account Id: 1to Account Id2
+INFO  02:00:18 Transfer done from Account Id: 1to Account Id2
+INFO  02:42:16 Transaction history returned for Customer Id: 1
+INFO  02:43:06 Transaction history returned for Customer Id: 1
+INFO  02:43:33 Transaction history returned for Customer Id: 1
+INFO  02:44:03 Transaction history returned for Customer Id: 1
+INFO  02:44:23 Transaction history returned for Customer Id: 1
+INFO  02:45:41 Transaction history returned for Customer Id: 1
+INFO  02:45:57 Transaction history returned for Customer Id: 1
+INFO  02:46:18 Transaction history returned for Customer Id: 1
+INFO  03:18:12 getAccount Api called
+INFO  03:18:12 deposit Api called
+INFO  03:18:12 Deposit done for Account Id: 1
+INFO  03:18:25 withdraw Api called
+INFO  03:18:25 Withdraw done for Account Id: 1
+INFO  03:18:41 Transfer done from Account Id: 1to Account Id2
+INFO  03:41:57 getAccount Api called
+INFO  03:41:57 deposit Api called
+INFO  03:41:57 Deposit done for Account Id: 1
+INFO  03:42:09 withdraw Api called
+INFO  03:42:09 Withdraw done for Account Id: 1
+INFO  04:21:58 getAccount Api called
+INFO  04:21:58 deposit Api called
+INFO  04:21:58 Deposit done for Account Id: 1
+INFO  04:37:05 getAccount Api called
+INFO  04:37:05 deposit Api called
+INFO  04:37:05 Deposit done for Account Id: 1
+INFO  04:37:28 Transfer done from Account Id: 1to Account Id2
+INFO  04:38:01 Transaction history returned for Customer Id: 1
+INFO  04:43:35 Application is shutting down...
+INFO  04:43:35 Application is shutting down...
+INFO  07:57:43 Now listening on: https://localhost:5004
+INFO  07:57:43 Now listening on: https://localhost:5004
+INFO  07:57:43 Now listening on: http://localhost:5005
+INFO  07:57:43 Now listening on: http://localhost:5005
+INFO  07:57:43 Application started. Press Ctrl+C to shut down.
+INFO  07:57:43 Application started. Press Ctrl+C to shut down.
+INFO  07:57:43 Hosting environment: Development
+INFO  07:57:43 Hosting environment: Development
+INFO  07:57:43 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  07:57:43 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  08:01:27 getAccount Api called
+INFO  08:01:28 deposit Api called
+INFO  08:01:29 Deposit done for Account Id: 1
+INFO  08:02:35 withdraw Api called
+INFO  08:02:35 Withdraw done for Account Id: 1
+INFO  08:03:32 Transfer done from Account Id: 1to Account Id2
+INFO  08:04:56 Transaction history returned for Customer Id: 1
+INFO  11:25:21 getAccount Api called
+INFO  11:25:21 deposit Api called
+INFO  11:25:21 Deposit done for Account Id: 1
+INFO  11:25:45 withdraw Api called
+INFO  11:25:45 Withdraw done for Account Id: 1
+INFO  11:26:13 Transfer done from Account Id: 1to Account Id2
+INFO  11:26:54 Transaction history returned for Customer Id: 1
+INFO  11:27:10 Transaction history returned for Customer Id: 1
+INFO  11:28:46 Application is shutting down...
+INFO  11:28:46 Application is shutting down...
+INFO  11:28:56 Now listening on: https://localhost:5004
+INFO  11:28:56 Now listening on: https://localhost:5004
+INFO  11:28:56 Now listening on: http://localhost:5005
+INFO  11:28:56 Now listening on: http://localhost:5005
+INFO  11:28:56 Application started. Press Ctrl+C to shut down.
+INFO  11:28:56 Application started. Press Ctrl+C to shut down.
+INFO  11:28:56 Hosting environment: Development
+INFO  11:28:56 Hosting environment: Development
+INFO  11:28:56 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  11:28:56 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  11:30:14 Transaction history returned for Customer Id: 1
+INFO  11:30:34 getAccount Api called
+INFO  11:30:35 deposit Api called
+INFO  11:30:36 Deposit done for Account Id: 1
+INFO  11:30:51 withdraw Api called
+INFO  11:30:51 Withdraw done for Account Id: 1
+INFO  11:31:04 Transaction history returned for Customer Id: 1
+INFO  11:31:23 Transfer done from Account Id: 1to Account Id2
+INFO  11:31:32 Transaction history returned for Customer Id: 1
+INFO  11:34:13 getAccount Api called
+INFO  11:34:13 deposit Api called
+INFO  11:34:13 Deposit done for Account Id: 1
+INFO  11:35:16 Transfer done from Account Id: 1to Account Id5
+INFO  11:35:29 Transaction history returned for Customer Id: 7
+INFO  11:35:52 Transaction history returned for Customer Id: 1
+INFO  11:37:49 Transaction history returned for Customer Id: 7
+INFO  04:09:24 Now listening on: https://localhost:5004
+INFO  04:09:24 Now listening on: https://localhost:5004
+INFO  04:09:24 Now listening on: http://localhost:5005
+INFO  04:09:24 Now listening on: http://localhost:5005
+INFO  04:09:24 Application started. Press Ctrl+C to shut down.
+INFO  04:09:24 Application started. Press Ctrl+C to shut down.
+INFO  04:09:24 Hosting environment: Development
+INFO  04:09:24 Hosting environment: Development
+INFO  04:09:24 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  04:09:24 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Transaction API\Transactions Microservice
+INFO  04:12:29 getAccount Api called
+INFO  04:12:30 deposit Api called
+INFO  04:12:31 Deposit done for Account Id: 1
+INFO  04:12:52 Transaction history returned for Customer Id: 1
