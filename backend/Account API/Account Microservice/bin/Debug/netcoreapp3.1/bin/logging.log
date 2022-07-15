@@ -1,0 +1,1884 @@
+INFO  03:42:57 Application started. Press Ctrl+C to shut down.
+INFO  03:42:57 Application started. Press Ctrl+C to shut down.
+INFO  03:42:57 Hosting environment: Development
+INFO  03:42:57 Hosting environment: Development
+INFO  03:42:57 Content root path: C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice
+INFO  03:42:57 Content root path: C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice
+INFO  03:44:53 Customer's account has been successfully returned
+ERROR 03:45:08 Value cannot be null. (Parameter 'nothing in the list for this customer id  5')
+ERROR 03:45:08 Value cannot be null. (Parameter 'nothing in the list for this customer id  5')
+ERROR 03:45:08 Value cannot be null. (Parameter 'nothing in the list for this customer id  5')
+ERROR 03:47:13 An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'nothing in the list for this customer id  5')
+   at Account_Microservice.Controllers.AccountController.getCustomerAccounts(Int32 CustomerId) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 77
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 03:47:13 An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'nothing in the list for this customer id  5')
+   at Account_Microservice.Controllers.AccountController.getCustomerAccounts(Int32 CustomerId) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 77
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  03:47:59 successfully returned acccount model
+INFO  03:50:29 Application started. Press Ctrl+C to shut down.
+INFO  03:50:29 Application started. Press Ctrl+C to shut down.
+INFO  03:50:29 Hosting environment: Development
+INFO  03:50:29 Hosting environment: Development
+INFO  03:50:29 Content root path: C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice
+INFO  03:50:29 Content root path: C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice
+INFO  03:50:55 successfully returned acccount model
+INFO  03:51:30 successfully returned acccount model
+INFO  03:51:41 successfully returned acccount model
+INFO  03:52:00 successfully returned acccount model
+INFO  03:52:47 Application started. Press Ctrl+C to shut down.
+INFO  03:52:47 Application started. Press Ctrl+C to shut down.
+INFO  03:52:47 Hosting environment: Development
+INFO  03:52:47 Hosting environment: Development
+INFO  03:52:47 Content root path: C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice
+INFO  03:52:47 Content root path: C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice
+INFO  03:54:09 successfully returned acccount model
+INFO  03:55:21 successfully returned acccount model
+INFO  03:56:44 Application started. Press Ctrl+C to shut down.
+INFO  03:56:44 Application started. Press Ctrl+C to shut down.
+INFO  03:56:44 Hosting environment: Development
+INFO  03:56:44 Hosting environment: Development
+INFO  03:56:44 Content root path: C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice
+INFO  03:56:44 Content root path: C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice
+ERROR 03:57:08 Value cannot be null. (Parameter 'No such accunt is stored')
+ERROR 03:57:08 Value cannot be null. (Parameter 'No such accunt is stored')
+ERROR 03:57:46 An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'No such accunt is stored')
+   at Account_Microservice.Controllers.AccountController.getAccount(Int32 AccountId) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 123
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 03:57:46 An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'No such accunt is stored')
+   at Account_Microservice.Controllers.AccountController.getAccount(Int32 AccountId) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 123
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+WARN  03:59:58 User has sent some invalid CustomerId
+ERROR 04:00:17 CustomerId is 0: 
+ERROR 04:00:22 An unhandled exception has occurred while executing the request.
+System.NullReferenceException: CustomerId is 0: 
+   at Account_Microservice.Controllers.AccountController.createAccount(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 41
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:00:22 An unhandled exception has occurred while executing the request.
+System.NullReferenceException: CustomerId is 0: 
+   at Account_Microservice.Controllers.AccountController.createAccount(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 41
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  04:00:35 Savings account has been successfully created
+INFO  04:00:35 Current account has been successfully created
+INFO  04:00:50 Customer's account has been successfully returned
+INFO  04:01:12 Customer's account has been successfully returned
+INFO  04:01:49 successfully returned acccount model
+INFO  04:02:26 account has been credited successfully
+INFO  04:02:55 account has been debited successfully
+ERROR 04:05:53 Specified argument was out of the range of valid values. (Parameter 'this customer id is not in the list :0')
+ERROR 04:06:28 An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'this customer id is not in the list :0')
+   at Account_Microservice.Controllers.AccountController.getCustomerAccounts(Int32 CustomerId) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 77
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:06:28 An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'this customer id is not in the list :0')
+   at Account_Microservice.Controllers.AccountController.getCustomerAccounts(Int32 CustomerId) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 77
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:06:37 Value cannot be null. (Parameter 'nothing in the list for this customer id  5')
+ERROR 04:06:37 Value cannot be null. (Parameter 'nothing in the list for this customer id  5')
+ERROR 04:06:37 Value cannot be null. (Parameter 'nothing in the list for this customer id  5')
+ERROR 04:06:58 An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'nothing in the list for this customer id  5')
+   at Account_Microservice.Controllers.AccountController.getCustomerAccounts(Int32 CustomerId) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 77
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:06:58 An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'nothing in the list for this customer id  5')
+   at Account_Microservice.Controllers.AccountController.getCustomerAccounts(Int32 CustomerId) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 77
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:07:49 Value cannot be null. (Parameter 'Account id is invalid 9')
+ERROR 04:07:49 Value cannot be null. (Parameter 'Account id is invalid 9')
+ERROR 04:07:49 Value cannot be null. (Parameter 'Account id is invalid 9')
+ERROR 04:08:07 An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'Account id is invalid 9')
+   at Account_Microservice.Controllers.AccountController.deposit(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 183
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:08:07 An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'Account id is invalid 9')
+   at Account_Microservice.Controllers.AccountController.deposit(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 183
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:08:20 Specified argument was out of the range of valid values. (Parameter 'account id is invalid or amount is 00')
+ERROR 04:08:23 An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'account id is invalid or amount is 00')
+   at Account_Microservice.Controllers.AccountController.deposit(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 183
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:08:23 An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'account id is invalid or amount is 00')
+   at Account_Microservice.Controllers.AccountController.deposit(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 183
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:08:32 Specified argument was out of the range of valid values. (Parameter 'account id is invalid or amount is 00')
+ERROR 04:08:34 An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'account id is invalid or amount is 00')
+   at Account_Microservice.Controllers.AccountController.withdraw(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 209
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:08:34 An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'account id is invalid or amount is 00')
+   at Account_Microservice.Controllers.AccountController.withdraw(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 209
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:08:44 Value cannot be null. (Parameter 'Account id is invalid 14')
+ERROR 04:08:44 Value cannot be null. (Parameter 'Account id is invalid 14')
+ERROR 04:08:45 Value cannot be null. (Parameter 'Account id is invalid 14')
+ERROR 04:08:47 An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'Account id is invalid 14')
+   at Account_Microservice.Controllers.AccountController.withdraw(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 209
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:08:47 An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'Account id is invalid 14')
+   at Account_Microservice.Controllers.AccountController.withdraw(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 209
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  04:14:45 Application started. Press Ctrl+C to shut down.
+INFO  04:14:45 Application started. Press Ctrl+C to shut down.
+INFO  04:14:45 Hosting environment: Development
+INFO  04:14:45 Hosting environment: Development
+INFO  04:14:45 Content root path: C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice
+INFO  04:14:45 Content root path: C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice
+ERROR 04:17:53 Specified argument was out of the range of valid values. (Parameter 'account id is invalid or amount is 00')
+ERROR 04:21:31 Value cannot be null. (Parameter 'Account id is invalid 11')
+ERROR 04:21:31 Value cannot be null. (Parameter 'Account id is invalid 11')
+ERROR 04:21:31 Value cannot be null. (Parameter 'Account id is invalid 11')
+ERROR 04:21:33 An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'Account id is invalid 11')
+   at Account_Microservice.Controllers.AccountController.deposit(Object obj)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:21:33 An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'account id is invalid or amount is 00')
+   at Account_Microservice.Controllers.AccountController.deposit(Object obj)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:21:33 An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'Account id is invalid 11')
+   at Account_Microservice.Controllers.AccountController.deposit(Object obj)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:21:33 An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'account id is invalid or amount is 00')
+   at Account_Microservice.Controllers.AccountController.deposit(Object obj)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:22:26 Value cannot be null. (Parameter 'Account id is invalid 11')
+ERROR 04:22:26 Value cannot be null. (Parameter 'Account id is invalid 11')
+ERROR 04:22:26 Value cannot be null. (Parameter 'Account id is invalid 11')
+INFO  04:26:11 Application started. Press Ctrl+C to shut down.
+INFO  04:26:11 Application started. Press Ctrl+C to shut down.
+INFO  04:26:11 Hosting environment: Development
+INFO  04:26:11 Hosting environment: Development
+INFO  04:26:11 Content root path: C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice
+INFO  04:26:11 Content root path: C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice
+ERROR 04:26:41 Value cannot be null. (Parameter 'Account id is invalid 13')
+ERROR 04:26:44 Value cannot be null. (Parameter 'Account id is invalid 13')
+ERROR 04:26:47 Value cannot be null. (Parameter 'Account id is invalid 13')
+ERROR 04:26:51 An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'Account id is invalid 13')
+   at Account_Microservice.Controllers.AccountController.deposit(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 183
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 04:26:51 An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'Account id is invalid 13')
+   at Account_Microservice.Controllers.AccountController.deposit(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 183
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  04:51:59 Application started. Press Ctrl+C to shut down.
+INFO  04:51:59 Application started. Press Ctrl+C to shut down.
+INFO  04:51:59 Hosting environment: Development
+INFO  04:51:59 Hosting environment: Development
+INFO  04:51:59 Content root path: C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice
+INFO  04:51:59 Content root path: C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice
+INFO  04:59:16 Application started. Press Ctrl+C to shut down.
+INFO  04:59:16 Application started. Press Ctrl+C to shut down.
+INFO  04:59:16 Hosting environment: Development
+INFO  04:59:16 Hosting environment: Development
+INFO  04:59:16 Content root path: C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice
+INFO  04:59:16 Content root path: C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice
+INFO  05:02:01 Application started. Press Ctrl+C to shut down.
+INFO  05:02:01 Application started. Press Ctrl+C to shut down.
+INFO  05:02:01 Hosting environment: Development
+INFO  05:02:01 Hosting environment: Development
+INFO  05:02:01 Content root path: C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice
+INFO  05:02:01 Content root path: C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice
+ERROR 05:03:20 The best overloaded method match for 'Account_Microservice.Provider.IAccountProvider.getStatement(int, System.DateTime, System.DateTime)' has some invalid arguments
+ERROR 05:03:42 An unhandled exception has occurred while executing the request.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Account_Microservice.Provider.IAccountProvider.getStatement(int, System.DateTime, System.DateTime)' has some invalid arguments
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 188
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 05:03:42 An unhandled exception has occurred while executing the request.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Account_Microservice.Provider.IAccountProvider.getStatement(int, System.DateTime, System.DateTime)' has some invalid arguments
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 188
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 05:05:26 The best overloaded method match for 'Account_Microservice.Provider.IAccountProvider.getStatement(int, System.DateTime, System.DateTime)' has some invalid arguments
+ERROR 05:05:59 An unhandled exception has occurred while executing the request.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Account_Microservice.Provider.IAccountProvider.getStatement(int, System.DateTime, System.DateTime)' has some invalid arguments
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 188
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 05:05:59 An unhandled exception has occurred while executing the request.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Account_Microservice.Provider.IAccountProvider.getStatement(int, System.DateTime, System.DateTime)' has some invalid arguments
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 188
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 05:06:32 The best overloaded method match for 'Account_Microservice.Provider.IAccountProvider.getStatement(int, System.DateTime, System.DateTime)' has some invalid arguments
+ERROR 05:08:03 An unhandled exception has occurred while executing the request.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Account_Microservice.Provider.IAccountProvider.getStatement(int, System.DateTime, System.DateTime)' has some invalid arguments
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 188
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 05:08:03 An unhandled exception has occurred while executing the request.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: The best overloaded method match for 'Account_Microservice.Provider.IAccountProvider.getStatement(int, System.DateTime, System.DateTime)' has some invalid arguments
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 188
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 05:08:21 The best overloaded method match for 'Account_Microservice.Provider.IAccountProvider.getStatement(int, System.DateTime, System.DateTime)' has some invalid arguments
+INFO  05:12:24 Application started. Press Ctrl+C to shut down.
+INFO  05:12:24 Application started. Press Ctrl+C to shut down.
+INFO  05:12:24 Hosting environment: Development
+INFO  05:12:24 Hosting environment: Development
+INFO  05:12:24 Content root path: C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice
+INFO  05:12:24 Content root path: C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice
+INFO  05:15:28 The type initializer for 'Account_Microservice.Repository.AccountRepository' threw an exception.
+ERROR 05:15:28 The type initializer for 'Account_Microservice.Repository.AccountRepository' threw an exception.
+ERROR 05:15:36 The type initializer for 'Account_Microservice.Repository.AccountRepository' threw an exception.
+ERROR 05:15:43 An unhandled exception has occurred while executing the request.
+System.TypeInitializationException: The type initializer for 'Account_Microservice.Repository.AccountRepository' threw an exception.
+ ---> System.FormatException: String '14/10/2020' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at Account_Microservice.Repository.AccountRepository..cctor() in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Repository\AccountRepository.cs:line 25
+   --- End of inner exception stack trace ---
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 188
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 05:15:43 An unhandled exception has occurred while executing the request.
+System.TypeInitializationException: The type initializer for 'Account_Microservice.Repository.AccountRepository' threw an exception.
+ ---> System.FormatException: String '14/10/2020' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at Account_Microservice.Repository.AccountRepository..cctor() in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Repository\AccountRepository.cs:line 25
+   --- End of inner exception stack trace ---
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 188
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  05:17:50 The type initializer for 'Account_Microservice.Repository.AccountRepository' threw an exception.
+ERROR 05:17:50 The type initializer for 'Account_Microservice.Repository.AccountRepository' threw an exception.
+ERROR 05:19:02 The type initializer for 'Account_Microservice.Repository.AccountRepository' threw an exception.
+ERROR 05:19:04 An unhandled exception has occurred while executing the request.
+System.TypeInitializationException: The type initializer for 'Account_Microservice.Repository.AccountRepository' threw an exception.
+ ---> System.FormatException: String '14/10/2020' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at Account_Microservice.Repository.AccountRepository..cctor() in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Repository\AccountRepository.cs:line 25
+   --- End of inner exception stack trace ---
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 188
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 05:19:04 An unhandled exception has occurred while executing the request.
+System.TypeInitializationException: The type initializer for 'Account_Microservice.Repository.AccountRepository' threw an exception.
+ ---> System.FormatException: String '14/10/2020' was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(ReadOnlySpan`1 s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at Account_Microservice.Repository.AccountRepository..cctor() in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Repository\AccountRepository.cs:line 25
+   --- End of inner exception stack trace ---
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 188
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  05:19:22 The type initializer for 'Account_Microservice.Repository.AccountRepository' threw an exception.
+ERROR 05:19:23 The type initializer for 'Account_Microservice.Repository.AccountRepository' threw an exception.
+INFO  05:27:24 Application started. Press Ctrl+C to shut down.
+INFO  05:27:24 Application started. Press Ctrl+C to shut down.
+INFO  05:27:24 Hosting environment: Development
+INFO  05:27:24 Hosting environment: Development
+INFO  05:27:24 Content root path: C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice
+INFO  05:27:24 Content root path: C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice
+ERROR 05:28:56 'System.Collections.Generic.List<Account_Microservice.Models.Statement>' does not contain a definition for 'ToList'
+ERROR 05:29:23 An unhandled exception has occurred while executing the request.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'System.Collections.Generic.List<Account_Microservice.Models.Statement>' does not contain a definition for 'ToList'
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 188
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 05:29:23 An unhandled exception has occurred while executing the request.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'System.Collections.Generic.List<Account_Microservice.Models.Statement>' does not contain a definition for 'ToList'
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 188
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 05:30:36 'System.Collections.Generic.List<Account_Microservice.Models.Statement>' does not contain a definition for 'ToList'
+ERROR 05:31:06 An unhandled exception has occurred while executing the request.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'System.Collections.Generic.List<Account_Microservice.Models.Statement>' does not contain a definition for 'ToList'
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 188
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 05:31:06 An unhandled exception has occurred while executing the request.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'System.Collections.Generic.List<Account_Microservice.Models.Statement>' does not contain a definition for 'ToList'
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 188
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 05:35:21 'System.Collections.Generic.List<Account_Microservice.Models.Statement>' does not contain a definition for 'ToList'
+ERROR 05:35:22 An unhandled exception has occurred while executing the request.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'System.Collections.Generic.List<Account_Microservice.Models.Statement>' does not contain a definition for 'ToList'
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 188
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 05:35:22 An unhandled exception has occurred while executing the request.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'System.Collections.Generic.List<Account_Microservice.Models.Statement>' does not contain a definition for 'ToList'
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\vimal\Downloads\MFPE\Account_API\Account Microservice\Controllers\AccountController.cs:line 188
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 05:36:44 'System.Collections.Generic.List<Account_Microservice.Models.Statement>' does not contain a definition for 'ToList'
+ERROR 05:36:45 An unhandled exception has occurred while executing the request.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'System.Collections.Generic.List<Account_Microservice.Models.Statement>' does not contain a definition for 'ToList'
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 05:36:45 An unhandled exception has occurred while executing the request.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'System.Collections.Generic.List<Account_Microservice.Models.Statement>' does not contain a definition for 'ToList'
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  05:37:04 statement returned for given accountid
+INFO  09:37:00 Application started. Press Ctrl+C to shut down.
+INFO  09:37:00 Application started. Press Ctrl+C to shut down.
+INFO  09:37:00 Hosting environment: Development
+INFO  09:37:00 Hosting environment: Development
+INFO  09:37:00 Content root path: D:\CognizantLearn\AsFTE\MFPE\Updated\Account Microservice
+INFO  09:37:00 Content root path: D:\CognizantLearn\AsFTE\MFPE\Updated\Account Microservice
+INFO  09:54:15 Application started. Press Ctrl+C to shut down.
+INFO  09:54:15 Application started. Press Ctrl+C to shut down.
+INFO  09:54:15 Hosting environment: Development
+INFO  09:54:15 Hosting environment: Development
+INFO  09:54:15 Content root path: E:\CTS\MFPE\Shayad Final\Updated\Account Microservice
+INFO  09:54:15 Content root path: E:\CTS\MFPE\Shayad Final\Updated\Account Microservice
+INFO  09:55:43 Savings account has been successfully created
+INFO  09:55:43 Current account has been successfully created
+INFO  09:55:51 Customer's account has been successfully returned
+INFO  09:56:09 successfully returned acccount model
+INFO  09:56:09 account has been credited successfully
+INFO  09:56:14 Customer's account has been successfully returned
+INFO  09:56:42 successfully returned acccount model
+INFO  09:56:42 account has been credited successfully
+INFO  09:56:48 Customer's account has been successfully returned
+INFO  09:57:32 statement returned for given accountid
+INFO  09:58:16 Customer's account has been successfully returned
+INFO  09:58:33 Customer's account has been successfully returned
+INFO  09:58:47 successfully returned acccount model
+INFO  09:59:36 successfully returned acccount model
+INFO  09:59:36 account has been debited successfully
+INFO  09:59:36 successfully returned acccount model
+INFO  09:59:36 account has been credited successfully
+INFO  09:59:57 Customer's account has been successfully returned
+INFO  10:00:24 successfully returned acccount model
+INFO  10:00:27 successfully returned acccount model
+INFO  10:00:36 Customer's account has been successfully returned
+INFO  10:00:44 successfully returned acccount model
+INFO  10:00:49 successfully returned acccount model
+INFO  10:00:59 Customer's account has been successfully returned
+INFO  10:01:05 successfully returned acccount model
+INFO  10:01:05 successfully returned acccount model
+INFO  10:01:12 successfully returned acccount model
+INFO  10:01:12 successfully returned acccount model
+INFO  10:01:12 account has been debited successfully
+INFO  10:01:17 Customer's account has been successfully returned
+INFO  10:01:51 statement returned for given accountid
+INFO  10:02:07 Customer's account has been successfully returned
+INFO  05:32:18 Now listening on: https://localhost:5001
+INFO  05:32:18 Now listening on: https://localhost:5001
+INFO  05:32:18 Now listening on: http://localhost:5000
+INFO  05:32:18 Now listening on: http://localhost:5000
+INFO  05:32:18 Application started. Press Ctrl+C to shut down.
+INFO  05:32:18 Application started. Press Ctrl+C to shut down.
+INFO  05:32:18 Hosting environment: Development
+INFO  05:32:18 Hosting environment: Development
+INFO  05:32:18 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  05:32:18 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  05:52:30 Savings account has been successfully created
+INFO  05:52:30 Current account has been successfully created
+INFO  05:53:15 Customer's account has been successfully returned
+INFO  05:53:35 Customer's account has been successfully returned
+INFO  05:54:01 successfully returned acccount model
+INFO  05:57:14 successfully returned acccount model
+INFO  05:57:15 account has been credited successfully
+INFO  05:57:34 successfully returned acccount model
+INFO  05:57:59 successfully returned acccount model
+INFO  05:58:00 successfully returned acccount model
+INFO  05:58:24 successfully returned acccount model
+INFO  05:58:24 successfully returned acccount model
+INFO  05:58:24 account has been debited successfully
+INFO  05:58:33 successfully returned acccount model
+INFO  06:00:50 successfully returned acccount model
+INFO  06:00:50 successfully returned acccount model
+INFO  06:00:51 account has been debited successfully
+INFO  06:00:51 successfully returned acccount model
+INFO  06:00:51 account has been credited successfully
+INFO  06:01:08 successfully returned acccount model
+INFO  08:17:15 Now listening on: https://localhost:5001
+INFO  08:17:15 Now listening on: https://localhost:5001
+INFO  08:17:15 Now listening on: http://localhost:5000
+INFO  08:17:15 Now listening on: http://localhost:5000
+INFO  08:17:15 Application started. Press Ctrl+C to shut down.
+INFO  08:17:15 Application started. Press Ctrl+C to shut down.
+INFO  08:17:15 Hosting environment: Development
+INFO  08:17:15 Hosting environment: Development
+INFO  08:17:15 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  08:17:15 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  09:32:23 successfully returned acccount model
+WARN  11:14:27 invalid accountid : 0
+INFO  11:15:17 Value cannot be null. (Parameter 'No statement for account id: 1')
+ERROR 11:15:17 Value cannot be null. (Parameter 'No statement for account id: 1')
+ERROR 11:15:17 Value cannot be null. (Parameter 'No statement for account id: 1')
+ERROR 11:15:18 An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'No statement for account id: 1')
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\Controllers\AccountController.cs:line 181
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 11:15:18 An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'No statement for account id: 1')
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\Controllers\AccountController.cs:line 181
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  08:05:55 Now listening on: https://localhost:5001
+INFO  08:05:55 Now listening on: https://localhost:5001
+INFO  08:05:55 Now listening on: http://localhost:5000
+INFO  08:05:55 Now listening on: http://localhost:5000
+INFO  08:05:55 Application started. Press Ctrl+C to shut down.
+INFO  08:05:55 Application started. Press Ctrl+C to shut down.
+INFO  08:05:55 Hosting environment: Development
+INFO  08:05:55 Hosting environment: Development
+INFO  08:05:55 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  08:05:55 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  08:26:56 Application is shutting down...
+INFO  08:26:56 Application is shutting down...
+INFO  08:27:12 Now listening on: https://localhost:5001
+INFO  08:27:12 Now listening on: https://localhost:5001
+INFO  08:27:12 Now listening on: http://localhost:5000
+INFO  08:27:12 Now listening on: http://localhost:5000
+INFO  08:27:12 Application started. Press Ctrl+C to shut down.
+INFO  08:27:12 Application started. Press Ctrl+C to shut down.
+INFO  08:27:12 Hosting environment: Development
+INFO  08:27:12 Hosting environment: Development
+INFO  08:27:12 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  08:27:12 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  08:31:21 Application is shutting down...
+INFO  08:31:21 Application is shutting down...
+INFO  08:31:30 Now listening on: https://localhost:5001
+INFO  08:31:30 Now listening on: https://localhost:5001
+INFO  08:31:30 Now listening on: http://localhost:5000
+INFO  08:31:30 Now listening on: http://localhost:5000
+INFO  08:31:30 Application started. Press Ctrl+C to shut down.
+INFO  08:31:30 Application started. Press Ctrl+C to shut down.
+INFO  08:31:30 Hosting environment: Development
+INFO  08:31:30 Hosting environment: Development
+INFO  08:31:30 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  08:31:30 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  08:31:50 Value cannot be null. (Parameter 'No statement for account id: 1')
+ERROR 08:31:50 Value cannot be null. (Parameter 'No statement for account id: 1')
+ERROR 08:31:50 Value cannot be null. (Parameter 'No statement for account id: 1')
+ERROR 08:31:50 An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'No statement for account id: 1')
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\Controllers\AccountController.cs:line 181
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 08:31:50 An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'No statement for account id: 1')
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\Controllers\AccountController.cs:line 181
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  08:32:06 Value cannot be null. (Parameter 'No statement for account id: 2')
+ERROR 08:32:06 Value cannot be null. (Parameter 'No statement for account id: 2')
+ERROR 08:32:06 Value cannot be null. (Parameter 'No statement for account id: 2')
+ERROR 08:32:06 An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'No statement for account id: 2')
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\Controllers\AccountController.cs:line 181
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 08:32:06 An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'No statement for account id: 2')
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\Controllers\AccountController.cs:line 181
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  08:36:11 statement returned for given accountid
+INFO  10:15:54 Customer's account has been successfully returned
+INFO  10:17:13 successfully returned acccount model
+INFO  10:20:16 Customer's account has been successfully returned
+INFO  12:39:15 successfully returned acccount model
+INFO  12:41:46 successfully returned acccount model
+INFO  12:42:10 successfully returned acccount model
+INFO  12:44:52 successfully returned acccount model
+INFO  12:45:13 successfully returned acccount model
+INFO  12:45:39 successfully returned acccount model
+INFO  12:46:31 successfully returned acccount model
+INFO  12:52:45 successfully returned acccount model
+INFO  12:53:55 successfully returned acccount model
+INFO  12:54:56 Application is shutting down...
+INFO  12:54:56 Application is shutting down...
+INFO  12:55:07 Now listening on: https://localhost:5001
+INFO  12:55:07 Now listening on: https://localhost:5001
+INFO  12:55:07 Now listening on: http://localhost:5000
+INFO  12:55:07 Now listening on: http://localhost:5000
+INFO  12:55:07 Application started. Press Ctrl+C to shut down.
+INFO  12:55:07 Application started. Press Ctrl+C to shut down.
+INFO  12:55:07 Hosting environment: Development
+INFO  12:55:07 Hosting environment: Development
+INFO  12:55:07 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  12:55:07 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  03:14:37 Application is shutting down...
+INFO  03:14:37 Application is shutting down...
+INFO  03:40:38 Now listening on: https://localhost:5001
+INFO  03:40:38 Now listening on: https://localhost:5001
+INFO  03:40:38 Now listening on: http://localhost:5000
+INFO  03:40:38 Now listening on: http://localhost:5000
+INFO  03:40:38 Application started. Press Ctrl+C to shut down.
+INFO  03:40:38 Application started. Press Ctrl+C to shut down.
+INFO  03:40:38 Hosting environment: Development
+INFO  03:40:38 Hosting environment: Development
+INFO  03:40:38 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  03:40:38 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  10:09:28 Now listening on: https://localhost:5001
+INFO  10:09:28 Now listening on: https://localhost:5001
+INFO  10:09:28 Now listening on: http://localhost:5000
+INFO  10:09:28 Now listening on: http://localhost:5000
+INFO  10:09:28 Application started. Press Ctrl+C to shut down.
+INFO  10:09:28 Application started. Press Ctrl+C to shut down.
+INFO  10:09:28 Hosting environment: Development
+INFO  10:09:28 Hosting environment: Development
+INFO  10:09:28 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  10:09:28 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+ERROR 10:32:36 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint Account_Microservice.Controllers.AccountController.getAccount (Account Microservice) contains CORS metadata, but a middleware was not found that supports CORS.
+Configure your application startup by adding app.UseCors() inside the call to Configure(..) in the application startup code. The call to app.UseAuthorization() must appear between app.UseRouting() and app.UseEndpoints(...).
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingCorsMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 10:32:36 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint Account_Microservice.Controllers.AccountController.getAccount (Account Microservice) contains CORS metadata, but a middleware was not found that supports CORS.
+Configure your application startup by adding app.UseCors() inside the call to Configure(..) in the application startup code. The call to app.UseAuthorization() must appear between app.UseRouting() and app.UseEndpoints(...).
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingCorsMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  10:34:39 Application is shutting down...
+INFO  10:34:39 Application is shutting down...
+INFO  10:35:25 Now listening on: https://localhost:5001
+INFO  10:35:25 Now listening on: https://localhost:5001
+INFO  10:35:25 Now listening on: http://localhost:5000
+INFO  10:35:25 Now listening on: http://localhost:5000
+INFO  10:35:25 Application started. Press Ctrl+C to shut down.
+INFO  10:35:25 Application started. Press Ctrl+C to shut down.
+INFO  10:35:25 Hosting environment: Development
+INFO  10:35:25 Hosting environment: Development
+INFO  10:35:25 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  10:35:25 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+ERROR 10:35:39 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint Account_Microservice.Controllers.AccountController.getAccount (Account Microservice) contains CORS metadata, but a middleware was not found that supports CORS.
+Configure your application startup by adding app.UseCors() inside the call to Configure(..) in the application startup code. The call to app.UseAuthorization() must appear between app.UseRouting() and app.UseEndpoints(...).
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingCorsMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 10:35:39 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint Account_Microservice.Controllers.AccountController.getAccount (Account Microservice) contains CORS metadata, but a middleware was not found that supports CORS.
+Configure your application startup by adding app.UseCors() inside the call to Configure(..) in the application startup code. The call to app.UseAuthorization() must appear between app.UseRouting() and app.UseEndpoints(...).
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingCorsMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  10:37:39 Application is shutting down...
+INFO  10:37:39 Application is shutting down...
+INFO  10:38:14 Now listening on: https://localhost:5001
+INFO  10:38:14 Now listening on: https://localhost:5001
+INFO  10:38:14 Now listening on: http://localhost:5000
+INFO  10:38:14 Now listening on: http://localhost:5000
+INFO  10:38:14 Application started. Press Ctrl+C to shut down.
+INFO  10:38:14 Application started. Press Ctrl+C to shut down.
+INFO  10:38:14 Hosting environment: Development
+INFO  10:38:14 Hosting environment: Development
+INFO  10:38:14 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  10:38:14 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  10:38:26 successfully returned acccount model
+INFO  10:54:18 successfully returned acccount model
+INFO  10:54:27 successfully returned acccount model
+INFO  10:55:24 successfully returned acccount model
+INFO  10:55:31 successfully returned acccount model
+INFO  10:59:46 successfully returned acccount model
+ERROR 12:14:22 String '1/01/22018' was not recognized as a valid DateTime.
+ERROR 12:14:23 An unhandled exception has occurred while executing the request.
+System.FormatException: String '1/01/22018' was not recognized as a valid DateTime.
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\Controllers\AccountController.cs:line 184
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 12:14:23 An unhandled exception has occurred while executing the request.
+System.FormatException: String '1/01/22018' was not recognized as a valid DateTime.
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\Controllers\AccountController.cs:line 184
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  12:16:43 statement returned for given accountid
+INFO  01:11:08 Application is shutting down...
+INFO  01:11:08 Application is shutting down...
+INFO  01:11:26 Now listening on: https://localhost:5001
+INFO  01:11:26 Now listening on: https://localhost:5001
+INFO  01:11:26 Now listening on: http://localhost:5000
+INFO  01:11:26 Now listening on: http://localhost:5000
+INFO  01:11:26 Application started. Press Ctrl+C to shut down.
+INFO  01:11:26 Application started. Press Ctrl+C to shut down.
+INFO  01:11:26 Hosting environment: Development
+INFO  01:11:26 Hosting environment: Development
+INFO  01:11:26 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  01:11:26 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  01:11:55 statement returned for given accountid
+INFO  01:54:27 Application is shutting down...
+INFO  01:54:27 Application is shutting down...
+INFO  01:54:52 Now listening on: https://localhost:5001
+INFO  01:54:52 Now listening on: https://localhost:5001
+INFO  01:54:52 Now listening on: http://localhost:5000
+INFO  01:54:52 Now listening on: http://localhost:5000
+INFO  01:54:52 Application started. Press Ctrl+C to shut down.
+INFO  01:54:52 Application started. Press Ctrl+C to shut down.
+INFO  01:54:52 Hosting environment: Development
+INFO  01:54:52 Hosting environment: Development
+INFO  01:54:52 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  01:54:52 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+ERROR 01:55:14 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint Account_Microservice.Controllers.AccountController.getAccountStatement (Account Microservice) contains CORS metadata, but a middleware was not found that supports CORS.
+Configure your application startup by adding app.UseCors() inside the call to Configure(..) in the application startup code. The call to app.UseAuthorization() must appear between app.UseRouting() and app.UseEndpoints(...).
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingCorsMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 01:55:14 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint Account_Microservice.Controllers.AccountController.getAccountStatement (Account Microservice) contains CORS metadata, but a middleware was not found that supports CORS.
+Configure your application startup by adding app.UseCors() inside the call to Configure(..) in the application startup code. The call to app.UseAuthorization() must appear between app.UseRouting() and app.UseEndpoints(...).
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingCorsMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  01:56:32 Application is shutting down...
+INFO  01:56:32 Application is shutting down...
+INFO  01:56:44 Now listening on: https://localhost:5001
+INFO  01:56:44 Now listening on: https://localhost:5001
+INFO  01:56:44 Now listening on: http://localhost:5000
+INFO  01:56:44 Now listening on: http://localhost:5000
+INFO  01:56:44 Application started. Press Ctrl+C to shut down.
+INFO  01:56:44 Application started. Press Ctrl+C to shut down.
+INFO  01:56:44 Hosting environment: Development
+INFO  01:56:44 Hosting environment: Development
+INFO  01:56:44 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  01:56:44 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+ERROR 01:57:06 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint Account_Microservice.Controllers.AccountController.getAccountStatement (Account Microservice) contains CORS metadata, but a middleware was not found that supports CORS.
+Configure your application startup by adding app.UseCors() inside the call to Configure(..) in the application startup code. The call to app.UseAuthorization() must appear between app.UseRouting() and app.UseEndpoints(...).
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingCorsMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 01:57:06 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint Account_Microservice.Controllers.AccountController.getAccountStatement (Account Microservice) contains CORS metadata, but a middleware was not found that supports CORS.
+Configure your application startup by adding app.UseCors() inside the call to Configure(..) in the application startup code. The call to app.UseAuthorization() must appear between app.UseRouting() and app.UseEndpoints(...).
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingCorsMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  01:57:42 Application is shutting down...
+INFO  01:57:42 Application is shutting down...
+INFO  01:57:58 Now listening on: https://localhost:5001
+INFO  01:57:58 Now listening on: https://localhost:5001
+INFO  01:57:58 Now listening on: http://localhost:5000
+INFO  01:57:58 Now listening on: http://localhost:5000
+INFO  01:57:58 Application started. Press Ctrl+C to shut down.
+INFO  01:57:58 Application started. Press Ctrl+C to shut down.
+INFO  01:57:58 Hosting environment: Development
+INFO  01:57:58 Hosting environment: Development
+INFO  01:57:58 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  01:57:58 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  01:58:20 statement returned for given accountid
+INFO  01:59:52 Application is shutting down...
+INFO  01:59:52 Application is shutting down...
+INFO  02:01:08 Now listening on: https://localhost:5001
+INFO  02:01:08 Now listening on: https://localhost:5001
+INFO  02:01:08 Now listening on: http://localhost:5000
+INFO  02:01:08 Now listening on: http://localhost:5000
+INFO  02:01:08 Application started. Press Ctrl+C to shut down.
+INFO  02:01:08 Application started. Press Ctrl+C to shut down.
+INFO  02:01:08 Hosting environment: Development
+INFO  02:01:08 Hosting environment: Development
+INFO  02:01:08 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  02:01:08 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  02:01:28 statement returned for given accountid
+INFO  02:01:57 statement returned for given accountid
+INFO  02:03:07 statement returned for given accountid
+INFO  02:23:08 successfully returned acccount model
+INFO  02:23:09 account has been credited successfully
+INFO  02:27:30 successfully returned acccount model
+INFO  02:27:30 successfully returned acccount model
+INFO  02:27:31 account has been debited successfully
+ERROR 02:38:39 'System.Collections.Generic.List<Account_Microservice.Models.Statement>' does not contain a definition for 'ToList'
+ERROR 02:38:39 An unhandled exception has occurred while executing the request.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'System.Collections.Generic.List<Account_Microservice.Models.Statement>' does not contain a definition for 'ToList'
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\Controllers\AccountController.cs:line 184
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 02:38:39 An unhandled exception has occurred while executing the request.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'System.Collections.Generic.List<Account_Microservice.Models.Statement>' does not contain a definition for 'ToList'
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\Controllers\AccountController.cs:line 184
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 02:41:09 'System.Collections.Generic.List<Account_Microservice.Models.Statement>' does not contain a definition for 'ToList'
+ERROR 02:41:09 An unhandled exception has occurred while executing the request.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'System.Collections.Generic.List<Account_Microservice.Models.Statement>' does not contain a definition for 'ToList'
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\Controllers\AccountController.cs:line 184
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 02:41:09 An unhandled exception has occurred while executing the request.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'System.Collections.Generic.List<Account_Microservice.Models.Statement>' does not contain a definition for 'ToList'
+   at Account_Microservice.Controllers.AccountController.getAccountStatement(Object obj) in C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\Controllers\AccountController.cs:line 184
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  02:43:54 successfully returned acccount model
+INFO  02:43:54 account has been credited successfully
+INFO  02:51:33 successfully returned acccount model
+INFO  02:51:33 successfully returned acccount model
+INFO  02:51:33 account has been debited successfully
+INFO  02:53:02 Application is shutting down...
+INFO  02:53:02 Application is shutting down...
+INFO  02:53:14 Now listening on: https://localhost:5001
+INFO  02:53:14 Now listening on: https://localhost:5001
+INFO  02:53:14 Now listening on: http://localhost:5000
+INFO  02:53:14 Now listening on: http://localhost:5000
+INFO  02:53:14 Application started. Press Ctrl+C to shut down.
+INFO  02:53:14 Application started. Press Ctrl+C to shut down.
+INFO  02:53:14 Hosting environment: Development
+INFO  02:53:14 Hosting environment: Development
+INFO  02:53:14 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  02:53:14 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  02:53:29 successfully returned acccount model
+INFO  02:53:30 account has been credited successfully
+INFO  02:53:45 successfully returned acccount model
+INFO  02:53:45 successfully returned acccount model
+INFO  02:53:45 account has been debited successfully
+INFO  02:54:03 successfully returned acccount model
+INFO  03:01:18 successfully returned acccount model
+INFO  03:01:18 successfully returned acccount model
+INFO  03:02:06 successfully returned acccount model
+INFO  03:02:06 successfully returned acccount model
+INFO  03:05:00 successfully returned acccount model
+INFO  03:05:00 account has been credited successfully
+INFO  03:05:15 successfully returned acccount model
+INFO  03:05:15 successfully returned acccount model
+INFO  03:05:15 account has been debited successfully
+INFO  03:05:15 successfully returned acccount model
+INFO  03:05:15 account has been credited successfully
+INFO  03:16:42 successfully returned acccount model
+INFO  03:16:42 successfully returned acccount model
+INFO  03:16:42 account has been debited successfully
+INFO  03:16:42 successfully returned acccount model
+INFO  03:16:42 account has been credited successfully
+INFO  03:20:24 successfully returned acccount model
+INFO  03:26:24 Savings account has been successfully created
+INFO  03:26:24 Current account has been successfully created
+INFO  03:46:10 Savings account has been successfully created
+INFO  03:46:10 Current account has been successfully created
+INFO  03:54:27 Savings account has been successfully created
+INFO  03:54:27 Current account has been successfully created
+INFO  05:40:58 successfully returned acccount model
+INFO  05:42:15 Customer's account has been successfully returned
+INFO  05:56:34 Customer's account has been successfully returned
+INFO  05:56:44 successfully returned acccount model
+INFO  06:01:03 Customer's account has been successfully returned
+INFO  06:21:44 Customer's account has been successfully returned
+INFO  06:21:55 Customer's account has been successfully returned
+INFO  06:27:28 successfully returned acccount model
+INFO  06:27:34 Customer's account has been successfully returned
+INFO  06:37:56 Savings account has been successfully created
+INFO  06:37:56 Current account has been successfully created
+WARN  07:45:21 User has sent some invalid CustomerId 0
+INFO  07:45:53 Savings account has been successfully created
+INFO  07:45:53 Current account has been successfully created
+INFO  07:50:19 Savings account has been successfully created
+INFO  07:50:19 Current account has been successfully created
+INFO  07:58:57 Savings account has been successfully created
+INFO  07:58:57 Current account has been successfully created
+INFO  09:43:22 Now listening on: https://localhost:5001
+INFO  09:43:22 Now listening on: https://localhost:5001
+INFO  09:43:22 Now listening on: http://localhost:5000
+INFO  09:43:22 Now listening on: http://localhost:5000
+INFO  09:43:22 Application started. Press Ctrl+C to shut down.
+INFO  09:43:22 Application started. Press Ctrl+C to shut down.
+INFO  09:43:22 Hosting environment: Development
+INFO  09:43:22 Hosting environment: Development
+INFO  09:43:22 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  09:43:22 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  09:49:27 Savings account has been successfully created
+INFO  09:49:27 Current account has been successfully created
+INFO  11:24:45 Savings account has been successfully created
+INFO  11:24:45 Current account has been successfully created
+INFO  11:24:55 Savings account has been successfully created
+INFO  11:24:55 Current account has been successfully created
+INFO  11:26:49 Savings account has been successfully created
+INFO  11:26:49 Current account has been successfully created
+INFO  11:28:20 Savings account has been successfully created
+INFO  11:28:20 Current account has been successfully created
+INFO  11:34:10 Now listening on: https://localhost:5001
+INFO  11:34:10 Now listening on: https://localhost:5001
+INFO  11:34:10 Now listening on: http://localhost:5000
+INFO  11:34:10 Now listening on: http://localhost:5000
+INFO  11:34:10 Application started. Press Ctrl+C to shut down.
+INFO  11:34:10 Application started. Press Ctrl+C to shut down.
+INFO  11:34:10 Hosting environment: Development
+INFO  11:34:10 Hosting environment: Development
+INFO  11:34:10 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  11:34:10 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  11:37:35 successfully returned acccount model
+INFO  01:05:17 successfully returned acccount model
+INFO  01:09:09 successfully returned acccount model
+INFO  01:09:10 account has been credited successfully
+INFO  01:09:38 successfully returned acccount model
+INFO  01:09:38 account has been credited successfully
+INFO  01:12:41 successfully returned acccount model
+INFO  01:14:03 successfully returned acccount model
+INFO  01:21:48 successfully returned acccount model
+INFO  01:22:22 successfully returned acccount model
+INFO  02:02:42 successfully returned acccount model
+INFO  02:02:42 account has been credited successfully
+INFO  02:05:04 successfully returned acccount model
+INFO  02:05:04 account has been credited successfully
+INFO  02:21:28 successfully returned acccount model
+INFO  02:21:28 account has been credited successfully
+INFO  02:23:25 successfully returned acccount model
+INFO  02:23:25 account has been credited successfully
+INFO  02:23:53 successfully returned acccount model
+INFO  02:23:53 account has been credited successfully
+INFO  02:24:15 successfully returned acccount model
+INFO  02:24:15 account has been credited successfully
+INFO  02:24:39 successfully returned acccount model
+INFO  02:24:39 account has been credited successfully
+INFO  02:25:01 successfully returned acccount model
+INFO  02:25:01 account has been credited successfully
+INFO  02:25:23 successfully returned acccount model
+INFO  02:25:23 account has been credited successfully
+INFO  02:25:51 successfully returned acccount model
+INFO  02:25:51 account has been credited successfully
+INFO  02:26:11 successfully returned acccount model
+INFO  02:26:11 account has been credited successfully
+INFO  02:26:59 successfully returned acccount model
+INFO  02:26:59 account has been credited successfully
+INFO  02:27:55 successfully returned acccount model
+INFO  02:27:55 account has been credited successfully
+INFO  05:40:22 successfully returned acccount model
+INFO  05:40:37 successfully returned acccount model
+INFO  05:40:54 successfully returned acccount model
+INFO  05:41:25 successfully returned acccount model
+INFO  05:41:26 account has been credited successfully
+INFO  05:42:06 successfully returned acccount model
+INFO  05:42:07 successfully returned acccount model
+INFO  05:42:08 account has been debited successfully
+INFO  05:43:12 successfully returned acccount model
+INFO  05:43:13 account has been credited successfully
+INFO  05:43:25 successfully returned acccount model
+INFO  05:43:26 successfully returned acccount model
+INFO  05:43:26 account has been debited successfully
+INFO  05:44:01 successfully returned acccount model
+INFO  05:44:01 successfully returned acccount model
+INFO  05:44:02 account has been debited successfully
+INFO  05:44:02 successfully returned acccount model
+INFO  05:44:02 account has been credited successfully
+INFO  05:46:05 statement returned for given accountid
+INFO  06:34:35 successfully returned acccount model
+INFO  06:34:35 account has been credited successfully
+INFO  06:43:11 successfully returned acccount model
+INFO  06:43:11 account has been credited successfully
+INFO  06:57:09 successfully returned acccount model
+INFO  06:57:09 account has been credited successfully
+INFO  08:05:34 Now listening on: https://localhost:5001
+INFO  08:05:34 Now listening on: https://localhost:5001
+INFO  08:05:34 Now listening on: http://localhost:5000
+INFO  08:05:34 Now listening on: http://localhost:5000
+INFO  08:05:34 Application started. Press Ctrl+C to shut down.
+INFO  08:05:34 Application started. Press Ctrl+C to shut down.
+INFO  08:05:34 Hosting environment: Development
+INFO  08:05:34 Hosting environment: Development
+INFO  08:05:34 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  08:05:34 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  12:49:31 successfully returned acccount model
+INFO  12:50:49 successfully returned acccount model
+INFO  12:51:09 successfully returned acccount model
+INFO  12:51:35 successfully returned acccount model
+INFO  12:51:50 successfully returned acccount model
+INFO  12:52:27 successfully returned acccount model
+INFO  12:52:58 successfully returned acccount model
+INFO  12:53:10 successfully returned acccount model
+INFO  12:53:30 successfully returned acccount model
+INFO  12:54:58 successfully returned acccount model
+INFO  01:03:42 Savings account has been successfully created
+INFO  01:03:42 Current account has been successfully created
+INFO  01:19:54 successfully returned acccount model
+INFO  01:20:05 successfully returned acccount model
+INFO  01:20:06 account has been credited successfully
+INFO  01:59:25 successfully returned acccount model
+INFO  01:59:25 successfully returned acccount model
+INFO  01:59:25 account has been debited successfully
+INFO  01:59:25 successfully returned acccount model
+INFO  01:59:25 account has been credited successfully
+INFO  02:00:17 successfully returned acccount model
+INFO  02:00:17 successfully returned acccount model
+INFO  02:00:18 account has been debited successfully
+INFO  02:00:18 successfully returned acccount model
+INFO  02:00:18 account has been credited successfully
+INFO  02:39:02 statement returned for given accountid
+INFO  02:40:07 statement returned for given accountid
+INFO  03:17:59 successfully returned acccount model
+INFO  03:18:12 successfully returned acccount model
+INFO  03:18:12 account has been credited successfully
+INFO  03:18:24 successfully returned acccount model
+INFO  03:18:24 successfully returned acccount model
+INFO  03:18:25 account has been debited successfully
+INFO  03:18:41 successfully returned acccount model
+INFO  03:18:41 successfully returned acccount model
+INFO  03:18:41 account has been debited successfully
+INFO  03:18:41 successfully returned acccount model
+INFO  03:18:41 account has been credited successfully
+INFO  03:19:51 Savings account has been successfully created
+INFO  03:19:51 Current account has been successfully created
+INFO  03:22:09 Customer's account has been successfully returned
+INFO  03:22:43 Customer's account has been successfully returned
+INFO  03:23:12 Customer's account has been successfully returned
+INFO  03:23:18 Customer's account has been successfully returned
+INFO  03:24:20 Customer's account has been successfully returned
+INFO  03:24:40 Customer's account has been successfully returned
+INFO  03:24:44 Customer's account has been successfully returned
+INFO  03:24:54 successfully returned acccount model
+INFO  03:25:22 successfully returned acccount model
+INFO  03:25:31 successfully returned acccount model
+INFO  03:26:20 successfully returned acccount model
+INFO  03:26:33 successfully returned acccount model
+INFO  03:26:49 successfully returned acccount model
+INFO  03:41:57 successfully returned acccount model
+INFO  03:41:57 account has been credited successfully
+INFO  03:42:09 successfully returned acccount model
+INFO  03:42:09 successfully returned acccount model
+INFO  03:42:09 account has been debited successfully
+INFO  04:18:41 successfully returned acccount model
+INFO  04:21:58 successfully returned acccount model
+INFO  04:21:58 account has been credited successfully
+INFO  04:36:53 successfully returned acccount model
+INFO  04:37:05 successfully returned acccount model
+INFO  04:37:05 account has been credited successfully
+INFO  04:37:28 successfully returned acccount model
+INFO  04:37:28 successfully returned acccount model
+INFO  04:37:28 account has been debited successfully
+INFO  04:37:28 successfully returned acccount model
+INFO  04:37:28 account has been credited successfully
+INFO  04:37:47 statement returned for given accountid
+INFO  04:38:38 Savings account has been successfully created
+INFO  04:38:38 Current account has been successfully created
+INFO  04:39:04 Customer's account has been successfully returned
+INFO  04:39:14 Customer's account has been successfully returned
+INFO  04:39:29 successfully returned acccount model
+INFO  04:43:14 Application is shutting down...
+INFO  04:43:14 Application is shutting down...
+INFO  07:55:44 Now listening on: https://localhost:5001
+INFO  07:55:44 Now listening on: https://localhost:5001
+INFO  07:55:44 Now listening on: http://localhost:5000
+INFO  07:55:44 Now listening on: http://localhost:5000
+INFO  07:55:44 Application started. Press Ctrl+C to shut down.
+INFO  07:55:44 Application started. Press Ctrl+C to shut down.
+INFO  07:55:44 Hosting environment: Development
+INFO  07:55:44 Hosting environment: Development
+INFO  07:55:44 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  07:55:44 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  08:00:40 successfully returned acccount model
+INFO  08:01:28 successfully returned acccount model
+INFO  08:01:29 account has been credited successfully
+INFO  08:02:09 successfully returned acccount model
+INFO  08:02:09 successfully returned acccount model
+INFO  08:02:35 successfully returned acccount model
+INFO  08:02:35 successfully returned acccount model
+INFO  08:02:35 account has been debited successfully
+INFO  08:03:32 successfully returned acccount model
+INFO  08:03:32 successfully returned acccount model
+INFO  08:03:32 account has been debited successfully
+INFO  08:03:32 successfully returned acccount model
+INFO  08:03:32 account has been credited successfully
+INFO  08:04:15 statement returned for given accountid
+INFO  08:06:41 Savings account has been successfully created
+INFO  08:06:41 Current account has been successfully created
+INFO  08:08:37 Customer's account has been successfully returned
+INFO  08:08:56 Customer's account has been successfully returned
+INFO  08:35:55 Customer's account has been successfully returned
+INFO  08:36:32 Customer's account has been successfully returned
+INFO  08:38:28 Customer's account has been successfully returned
+INFO  11:25:08 successfully returned acccount model
+INFO  11:25:21 successfully returned acccount model
+INFO  11:25:21 account has been credited successfully
+INFO  11:25:45 successfully returned acccount model
+INFO  11:25:45 successfully returned acccount model
+INFO  11:25:45 account has been debited successfully
+INFO  11:25:59 successfully returned acccount model
+INFO  11:25:59 successfully returned acccount model
+INFO  11:26:13 successfully returned acccount model
+INFO  11:26:13 successfully returned acccount model
+INFO  11:26:13 account has been debited successfully
+INFO  11:26:13 successfully returned acccount model
+INFO  11:26:13 account has been credited successfully
+INFO  11:26:44 statement returned for given accountid
+INFO  11:28:07 Application is shutting down...
+INFO  11:28:07 Application is shutting down...
+INFO  11:28:27 Now listening on: https://localhost:5001
+INFO  11:28:27 Now listening on: https://localhost:5001
+INFO  11:28:27 Now listening on: http://localhost:5000
+INFO  11:28:27 Now listening on: http://localhost:5000
+INFO  11:28:27 Application started. Press Ctrl+C to shut down.
+INFO  11:28:27 Application started. Press Ctrl+C to shut down.
+INFO  11:28:27 Hosting environment: Development
+INFO  11:28:27 Hosting environment: Development
+INFO  11:28:27 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  11:28:27 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  11:30:35 successfully returned acccount model
+INFO  11:30:36 account has been credited successfully
+INFO  11:30:50 successfully returned acccount model
+INFO  11:30:50 successfully returned acccount model
+INFO  11:30:51 account has been debited successfully
+INFO  11:31:23 successfully returned acccount model
+INFO  11:31:23 successfully returned acccount model
+INFO  11:31:23 account has been debited successfully
+INFO  11:31:23 successfully returned acccount model
+INFO  11:31:23 account has been credited successfully
+INFO  11:33:16 Savings account has been successfully created
+INFO  11:33:16 Current account has been successfully created
+INFO  11:33:55 successfully returned acccount model
+INFO  11:34:13 successfully returned acccount model
+INFO  11:34:13 account has been credited successfully
+INFO  11:34:45 Customer's account has been successfully returned
+INFO  11:35:16 successfully returned acccount model
+INFO  11:35:16 successfully returned acccount model
+INFO  11:35:16 account has been debited successfully
+INFO  11:35:16 successfully returned acccount model
+INFO  11:35:16 account has been credited successfully
+INFO  11:39:24 Customer's account has been successfully returned
+INFO  04:07:37 Now listening on: https://localhost:5001
+INFO  04:07:37 Now listening on: https://localhost:5001
+INFO  04:07:37 Now listening on: http://localhost:5000
+INFO  04:07:37 Now listening on: http://localhost:5000
+INFO  04:07:37 Application started. Press Ctrl+C to shut down.
+INFO  04:07:37 Application started. Press Ctrl+C to shut down.
+INFO  04:07:37 Hosting environment: Development
+INFO  04:07:37 Hosting environment: Development
+INFO  04:07:37 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  04:07:37 Content root path: C:\Users\ASUS\Downloads\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice
+INFO  04:12:20 successfully returned acccount model
+INFO  04:12:30 successfully returned acccount model
+INFO  04:12:31 account has been credited successfully
+INFO  04:12:43 statement returned for given accountid
