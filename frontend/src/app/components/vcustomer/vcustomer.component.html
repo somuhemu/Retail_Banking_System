@@ -1,0 +1,27 @@
+<div class="container border bg-color">
+    <div *ngIf="!flip">
+        <h3 class="mt-5 ml-5">Customer Details</h3>
+        <div class="form-group">
+            <label for="cid" class="ml-5 mt-2">Enter Customer id:</label>
+            <input type="text" #cid class="form-control ml-5 ip-size" id="cid">
+        </div>
+        <button type="button" class="btn btn-primary ml-5 mt-3 btn-width" (click)="getCustData(cid.value)">Get</button>
+    </div>
+    <div *ngIf="flip">
+        <h3 class="ml-5 mt-2">Customer Details</h3>
+        <dl class="ml-5 mt-4">
+            <dt>Customer Id :</dt>
+            <dd>{{acc.customerId}}</dd>
+            <dt>Name :</dt>
+            <dd>{{acc.name}}</dd>
+            <dt>Address:</dt>
+            <dd>{{acc.address}}</dd>
+            <dt>Date of Birth :</dt>
+            <dd>{{acc.dob}}</dd>
+            <dt>Pan No :</dt>
+            <dd>{{acc.paNno}}</dd>
+        </dl>
+        <button type="button" class="btn btn-primary ml-5 mt-3 back-btn" routerLink="/employee-portal">Back</button>
+        <button type="button" class="btn btn-primary ml-5 mt-3 exit-btn" routerLink="/emp-logout">Exit</button>
+    </div>
+</div>

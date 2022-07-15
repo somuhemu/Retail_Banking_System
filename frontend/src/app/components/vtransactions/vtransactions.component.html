@@ -1,0 +1,40 @@
+<div class="container  border bg-color">
+    <div *ngIf="!flip">
+        <h3 class="mt-5 ml-5">Get Your Transaction details</h3>
+        <div class="form-group">
+            <label for="cid" class="ml-5 mt-2">Enter your Customer id:</label>
+            <input type="text" #cid class="form-control ml-5 ip-size" id="cid">
+        </div>
+        <button type="button" class="btn btn-primary  ml-5 mt-3 btn-width" (click)="getTrans(cid.value)">Fetch</button>
+    </div>
+    <div *ngIf="flip">
+        <h3 class="mt-5 ml-5">Transactions</h3>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Transaction Id</th>
+                    <th>Account Id</th>
+                    <th>Customer Id</th>
+                    <th>Message</th>
+                    <th>Source Balance</th>
+                    <th>Destination Balance</th>
+                    <th>Date of Transaction</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let t of trs">
+                    <td>{{t.transactionId}}</td>
+                    <td>{{t.accountId}}</td>
+                    <td>{{t.customerId}}</td>
+                    <td>{{t.message}}</td>
+                    <td>{{t.source_balance}}</td>
+                    <td>{{t.destination_balance}}</td>
+                    <td>{{t.dateOfTransaction}}</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <button type="button" class="btn btn-primary ml-5 mt-3 back-btn" routerLink="/customer-portal">Back</button>
+        <button type="button" class="btn btn-primary ml-5 mt-3 exit-btn" routerLink="/logout">Exit</button>
+    </div>
+</div>

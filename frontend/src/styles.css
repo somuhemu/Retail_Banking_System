@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+.bg-color{
+    background-color:white;
+}
+.border{
+    border: 10px solid;
+    border-radius: 8px;
+    height: 80%;
+}
+.btn-primary{
+    background-color: #003B73
+}
+
+.ip-size{
+    width:50%
+}
+.btn-width{
+    width:20%;
+}
+
+.back-btn{
+    width:10%
+}
+.exit-btn{
+    width:10%
+}

@@ -1,0 +1,36 @@
+<div class="container border bg-color">
+    <div *ngIf="!flip">
+        <h2 class="mt-5 ml-5">Create Customer</h2>
+        <div class="form-group">
+            <label for="cid" class="ml-5 mt-2">Customer Id :</label>
+            <input type="text" #cidd class="form-control ml-5 ip-size" id="cid">
+        </div>
+        <div class="form-group">
+            <label for="name" class="ml-5 ">Name :</label>
+            <input type="text" #cn class="form-control ml-5 ip-size" id="name">
+        </div>
+        <div class="form-group">
+            <label for="add" class="ml-5 ">Address :</label>
+            <input type="text" #ca class="form-control ml-5 ip-size" id="add">
+        </div>
+        <div class="form-group">
+            <label for="dob" class="ml-5 ">Date Of Birth :</label>
+            <input type="text" #cdob class="form-control ml-5 ip-size" id="dob">
+        </div>
+        <div class="form-group">
+            <label for="pn" class="ml-5 ">Pan No :</label>
+            <input type="text" #cpan class="form-control ml-5 ip-size" id="pn">
+        </div>
+        <button type="button" class="btn btn-primary ml-5 mt-3 btn-width"
+            (click)="getCreate(cidd.value,cn.value,ca.value,cdob.value,cpan.value)">Create</button>
+    </div>
+
+    <div *ngIf="flip">
+        <h3 class="mt-5 ml-5">Customer and his Accounts have been successfully created</h3>
+        <p class="ml-5 mt-2">{{res.message}}</p>
+        <p class="ml-5 mt-2">{{res.customerId}}</p>
+
+        <button type="button" class="btn btn-primary ml-5 mt-3 back-btn" routerLink="/employee-portal">Back</button>
+        <button type="button" class="btn btn-primary ml-5 mt-3 exit-btn" routerLink="/emp-logout">Exit</button>
+    </div>
+</div>

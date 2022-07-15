@@ -1,0 +1,39 @@
+.bg-color{
+    background-color:white;
+}
+.wtext{
+    color:white;
+    text-align: center;
+}
+.border{
+    border: 10px solid;
+    border-radius: 8px;
+}
+a{
+    background-color: lightgray;
+    color: black;
+}
+a:hover{
+    background-color: #60A3D9;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #003B73
+
+    ;
+}
+
+.btn-primary{
+    background-color: #003B73
+}
+.btn-primary:hover{
+    background-color: #0074B7;
+}
+
+.full-width{
+width: 100%;
+}
+
+
+
